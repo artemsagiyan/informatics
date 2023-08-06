@@ -5,3 +5,9 @@ class Basket:
 
     def avg_cnt_apples(self):
         return self.cnt_peoples // self.cnt_apples
+
+
+N = int(input())
+K = int(input())
+basket = Basket(K, N)
+print(basket.avg_cnt_apples())
