@@ -6,10 +6,3 @@ class Mkad:
 
     def calculate_km(self):
         return (self.t * self.v) % self.l
-
-
-t = int(input())
-v = int(input())
-
-mkad = Mkad(t, v)
-print(mkad.calculate_km())
